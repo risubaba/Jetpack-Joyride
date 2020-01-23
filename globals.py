@@ -32,7 +32,7 @@ if int(columns) < 100 :
     quit()
     
 gamestarttime = time()
-gametime = 90
+gametime = 0
 BULLETS = [0 for i in range(4)]
 k = 0
 
@@ -61,7 +61,7 @@ COIN['LENGTH'] = 3
 
 #Bullet
 BULLET = {}
-BULLET['LENGTH'] = 1
+BULLET['LENGTH'] = 6
 BULLET['WIDTH'] = 6
 
 #Game

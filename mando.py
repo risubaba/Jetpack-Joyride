@@ -20,7 +20,7 @@ class Player(Person):
     def health(self):
         return GAME['LIVES']
 
-    def ondragon():
+    def ondragon(self):
         return self._ondragon
 
     def protected(self):
